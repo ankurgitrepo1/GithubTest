@@ -8,5 +8,6 @@ namespace GithubTest
 {
     interface Interface2
     {
+        Void TestMethod();
     }
 }
