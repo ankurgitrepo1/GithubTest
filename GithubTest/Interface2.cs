@@ -9,6 +9,6 @@ namespace GithubTest
     interface Interface2
     {
         void Test();
-        Void TestMethod();
+        void TestMethod();
     }
 }
