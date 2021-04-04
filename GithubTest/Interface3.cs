@@ -8,5 +8,8 @@ namespace GithubTest
 {
     interface Interface3
     {
+        void NewMethod();
+   
+    
     }
 }
