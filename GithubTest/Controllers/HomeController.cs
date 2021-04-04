@@ -8,7 +8,7 @@ namespace GithubTest.Controllers
 {
     public class HomeController : Controller
     {
-        string str = "Four";
+   string str= "Ankur";
         public ActionResult Index()
         {
            
