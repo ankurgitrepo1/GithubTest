@@ -10,6 +10,8 @@ namespace GithubTest.Controllers
     {
         public ActionResult Index()
         {
+           
+            // improved performance
             return View();
         }
 
@@ -23,6 +25,13 @@ namespace GithubTest.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Serve()
+        {
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
