@@ -8,6 +8,8 @@ namespace GithubTest.Controllers
 {
     public class HomeController : Controller
     {
+    var str= "Ankur";
+    
         public ActionResult Index()
         {
             return View();
